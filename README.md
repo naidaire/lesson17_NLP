@@ -10,6 +10,8 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials  | Optional material to cover Bayes Theorem and Naive Bayes | [Here](./extra-materials) |
 
+*Yelp dataset chosen because of rich and colloquial text attributes, as well as how well it lends itself to sentiment analysis.*
+
 *Note: This lesson uses the Naive Bayes model MultinomialNB, which is often used for NLP applications such as spam detection. An appendix is included at the end of the lesson for interested students. However, this model will be covered in much more detail in another lesson so the appendix is optional. Supplemental materials are also offered if you want to explore Bayes-related topics more at this point.*
 
 ---
