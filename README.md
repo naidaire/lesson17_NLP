@@ -10,13 +10,13 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials  | Optional material to cover Bayes Theorem and Naive Bayes | [Here](./extra-materials) |
 
-*Yelp dataset chosen because of rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.*
+*Yelp dataset was chosen because of its rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.*
 
-*Note: This lesson uses the Naive Bayes model MultinomialNB, which is often used for NLP applications such as spam detection. An appendix is included at the end of the lesson for interested students. However, this model will be covered in much more detail in another lesson so the appendix is optional. Supplemental materials are also offered if you want to explore Bayes-related topics more at this point.*
+*Note: This lesson uses the Naive Bayes model MultinomialNB, which is often used for NLP applications, such as spam detection. An appendix is included at the end of the lesson for interested students. Supplemental materials are also offered if you want to explore Bayes-related topics.*
 
 ---
 
-### Learning Objectives
+## Learning Objectives
 - **Discuss** the major tasks involved with natural language processing
 - **Discuss**, on a low level, the components of natural language processing
 - **Identify** why natural language processing is difficult
@@ -25,7 +25,7 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 
 ---
 
-### Lesson Guide
+## Lesson Guide
 
 - [Introduction to Natural Language Processing](#intro)
 - [Reading Yelp reviews with NLP](#yelp_rev)
@@ -47,10 +47,14 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 
 ---
 
-### Prerequisites
+## Student Requirements
 
-To procede through the lesson, first install TextBlob as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64).
+Before this lesson(s), students should already be able to:
+- a
+- b
 
+### Installation Notes
+To procede through the lesson, first install `TextBlob` as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64).
 
 **To install textblob run:**
 
@@ -62,9 +66,10 @@ To procede through the lesson, first install TextBlob as explained below. We ten
 
 > `python -m textblob.download_corpora lite`
 
+
 ---
 
-### Additional Resources
+## Additional Resources
 
 - Check out this [Yelp blog post](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) how they completed a classification task (with over 1000 response variables!) using restaurant review text
 - Always check documentation: [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html), [HashingVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html), [TF-IDF](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
