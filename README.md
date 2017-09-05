@@ -1,5 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Natural Language Processing
-Unit 4 : DS Applications | Lesson 2 : Natural Language Processing 
+Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 
 ## Materials We Provide
 
@@ -50,8 +50,12 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 ## Student Requirements
 
 Before this lesson(s), students should already be able to:
-- a
-- b
+- Use Anaconda for package management
+- Use train/test/split to create a set of features and target values
+- Read data into a Pandas DataFrame
+- Build and evaluate predictive models using scikit-learn
+
+---
 
 ### Installation Notes
 To procede through the lesson, first install `TextBlob` as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64).
