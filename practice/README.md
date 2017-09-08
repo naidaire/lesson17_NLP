@@ -29,5 +29,5 @@ Unit 4 : DS Applications | NLP
   - **Difficulty** : Advance
   - **Length** : Moderate
   - **[Solution](./solution-code/topic-modeling-lda-codealong-lab-solutions.ipynb)**
-  - _**Note** : Indended to be an instructor led walkthrough_
+  - _**Note** : Intended to be an instructor led walkthrough_
 
