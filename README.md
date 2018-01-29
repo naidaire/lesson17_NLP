@@ -11,7 +11,7 @@
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials  | Optional material to cover Bayes Theorem and Naive Bayes | [Here](./extra-materials) |
 
-The yelp dataset was chosen because of its rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.
+> The yelp dataset was chosen because of its rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.
 
 > *Note: This lesson also uses the Naive Bayes model MultinomialNB, which is often used for NLP applications, such as spam detection. An appendix is included at the end of the lesson for interested students. Supplemental materials are also offered if you want to explore Bayes-related topics.*
 
@@ -74,6 +74,7 @@ To procede through the lesson, first install `TextBlob` as explained below. We t
 ---
 
 ## Additional Resources
+For more information, we recommend the following resources:
 
 - Check out this [Yelp blog post](http://engineeringblog.yelp.com/2015/09/automatically-categorizing-yelp-businesses.html) how they completed a classification task (with over 1000 response variables!) using restaurant review text
 - Always check documentation: [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html), [HashingVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html), [TF-IDF](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
