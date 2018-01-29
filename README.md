@@ -18,11 +18,23 @@ The yelp dataset was chosen because of its rich and colloquial text attributes, 
 ---
 
 ## Learning Objectives
+
+By the end of this lesson, students should be able to:
 - **Discuss** the major tasks involved with natural language processing
 - **Discuss**, on a low level, the components of natural language processing
 - **Identify** why natural language processing is difficult
 - **Demonstrate** text classification
 - **Demonstrate** common text preprocessing techniques
+
+---
+
+## Student Requirements
+
+Before this lesson, students should already be able to:
+- Use Anaconda for package management
+- Use train/test/split to create a set of features and target values
+- Read data into a Pandas DataFrame
+- Build and evaluate predictive models using scikit-learn
 
 ---
 
@@ -48,17 +60,7 @@ The yelp dataset was chosen because of its rich and colloquial text attributes, 
 
 ---
 
-## Student Requirements
-
-Before this lesson(s), students should already be able to:
-- Use Anaconda for package management
-- Use train/test/split to create a set of features and target values
-- Read data into a Pandas DataFrame
-- Build and evaluate predictive models using scikit-learn
-
----
-
-### Installation Notes
+## Installation Notes
 To procede through the lesson, first install `TextBlob` as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64). To install textblob:
 
 1. `conda install -c https://conda.anaconda.org/sloria textblob`
