@@ -1,5 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Natural Language Processing
-Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
+
+> Unit 4: Required
 
 ## Materials We Provide
 
@@ -10,9 +11,9 @@ Unit 4 : DS Applications | Lesson 2 : Natural Language Processing
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials  | Optional material to cover Bayes Theorem and Naive Bayes | [Here](./extra-materials) |
 
-*Yelp dataset was chosen because of its rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.*
+The yelp dataset was chosen because of its rich and colloquial text attributes, in addition to how well it lends itself to sentiment analysis.
 
-*Note: This lesson uses the Naive Bayes model MultinomialNB, which is often used for NLP applications, such as spam detection. An appendix is included at the end of the lesson for interested students. Supplemental materials are also offered if you want to explore Bayes-related topics.*
+> *Note: This lesson also uses the Naive Bayes model MultinomialNB, which is often used for NLP applications, such as spam detection. An appendix is included at the end of the lesson for interested students. Supplemental materials are also offered if you want to explore Bayes-related topics.*
 
 ---
 
@@ -58,17 +59,14 @@ Before this lesson(s), students should already be able to:
 ---
 
 ### Installation Notes
-To procede through the lesson, first install `TextBlob` as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64).
+To procede through the lesson, first install `TextBlob` as explained below. We tend to prefer Anaconda-based installations, since they tend to be tested with our other Anaconda packages. However, in this case TextBlob is not available on some platforms with Anaconda (e.g. Win64). To install textblob:
 
-**To install textblob run:**
-
-> `conda install -c https://conda.anaconda.org/sloria textblob`
+1. `conda install -c https://conda.anaconda.org/sloria textblob`
 
 **Or:**
 
-> `pip install textblob`
-
-> `python -m textblob.download_corpora lite`
+1. `pip install textblob`
+2. `python -m textblob.download_corpora lite`
 
 
 ---
